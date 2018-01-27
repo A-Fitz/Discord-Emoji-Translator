@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+}
+
+.in, .out {
+	overflow-x:hidden;
+	resize: none;
+}
+
+/* Text/Icon color */
+/* Discord-Branding "Dark, but not black" */
+.text {
+	color: #2C2F33;
+}
+
+/* Input/Output border color */
+/* Discord-Branding "Blurple" */
+textarea:focus, input:focus, .uneditable-input:focus {   
+    border-color: rgba(114, 137, 218, 0.8) !important;
+    box-shadow: 0 1px 1px rgba(114, 137, 218, 0.075) inset, 0 0 8px rgba(114, 137, 218, 0.6) !important;
+    outline: 0 none !important;
+}
+
+/* Output background color */
+/* Discord-Branding "Greypale" */
+.form-control[readonly] {
+	background-color: rgba(153, 170, 181, 0.1) !important;
+}
+
+/* Text Selection */
+/* Discord-Branding "Blurple" */
+::selection {
+  background: rgba(114, 137, 218, 0.5); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(114, 137, 218, 0.5); /* Gecko Browsers */
+}
+	
+
+/* Sizing Begins */
+
+/* Phones */
+
+.in {
+	height: 6rem;
+}
+
+.out {
+	height: 8rem;
+}
+
+
+/* Tablets */
+@media (min-width: 768px) {
+	.in {
+		height: 14rem;
+	}
+	
+	.out {
+		height: 17rem;
+	}
+}
+
+/* Computers */
+@media (min-width: 992px) {
+	.in {
+		height: 10rem;
+	}
+	
+	.out {
+		height: 14rem;
+	}
+}
+
+/* Sizing Ends */
