@@ -1,0 +1,134 @@
+/**
+ * Forked from http://ellekasai.github.io/twemoji-awesome/
+ * Heavily edited to suit this sites specific needs
+ */
+
+.twa {
+  display: inline-block;
+  height: 3em;
+  width: 3em;
+  margin: 0 0.15em 0 0.3em;
+  vertical-align: -0.3em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 3em 3em; }
+
+.twa-interrobang {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/2049.svg"); }
+  
+.twa-exclamation {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/2757.svg"); }
+  
+.twa-question {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/2753.svg"); }
+  
+.twa-zero {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/30-20e3.svg"); }
+  
+.twa-one {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/31-20e3.svg"); }
+
+.twa-two {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/32-20e3.svg"); }
+  
+.twa-three {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/33-20e3.svg"); }
+
+.twa-four {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/34-20e3.svg"); }
+
+.twa-five {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/35-20e3.svg"); }
+
+.twa-six {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/36-20e3.svg"); }
+
+.twa-seven {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/37-20e3.svg"); }
+
+.twa-eight {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/38-20e3.svg"); }
+
+.twa-nine {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/39-20e3.svg"); }
+  
+.twa-a {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1e6.svg"); }
+  
+.twa-b {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1e7.svg"); }
+
+.twa-c {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1e8.svg"); }
+
+.twa-d {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1e9.svg"); }
+
+.twa-e {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1ea.svg"); }
+
+.twa-f {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1eb.svg"); }
+
+.twa-g {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1ec.svg"); }
+
+.twa-h {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1ed.svg"); }
+
+.twa-i {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1ee.svg"); }
+
+.twa-j {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1ef.svg"); }
+
+.twa-k {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f0.svg"); }
+
+.twa-l {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f1.svg"); }
+
+.twa-m {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f2.svg"); }
+
+.twa-n {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f3.svg"); }
+
+.twa-o {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f4.svg"); }
+
+.twa-p {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f5.svg"); }
+
+.twa-q {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f6.svg"); }
+
+.twa-r {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f7.svg"); }
+
+.twa-s {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f8.svg"); }
+
+.twa-t {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1f9.svg"); }
+
+.twa-u {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1fa.svg"); }
+
+.twa-v {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1fb.svg"); }
+
+.twa-w {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1fc.svg"); }
+
+.twa-x {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1fd.svg"); }
+
+.twa-y {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1fe.svg"); }
+
+.twa-z {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f1ff.svg"); }
+  
+.twa-space {
+  background-image: url("blank.svg"); }

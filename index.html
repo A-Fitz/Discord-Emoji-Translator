@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Discord Emoji Translator - FitzGerald Development">
+		<meta name="author" content="Austin FitzGerald">
 		
 		<title>Discord Emoji Translator</title>
 		
+		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="twemoji-awesome.css">
 		
+		<!-- JS -->
+		<script src="https://twemoji.maxcdn.com/twemoji.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="script.js"></script>
-	
+		
+		<!-- Bootstrap v4 -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		
 	</head>
 
 	<body>
-	<div class="container">
+		<div class="container">
 			<h1 class="mt-5 mb-5 text">Discord Emoji Translator</h1>
 
 			<textarea id="in" class="in form-control form-rounded" placeholder="Enter text..."></textarea>
 
 			<i class="fa fa-arrow-down fa-2x mt-5 text"></i>
-
-			<textarea id="out" class="out form-control form-rounded mt-5 mb-5" readonly></textarea>
-	</div>
 			
+			<textarea id="out" class="out form-control form-rounded mt-5 mb-5" readonly></textarea>
+			
+			<div id="preview" class="preview mt-5 mb-5"></div>
+		</div>	
 	</body>
 </html>
